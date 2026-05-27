@@ -1,108 +1,161 @@
-# 📩 SMS Spam Detection using NLP & Machine Learning
+# Spam Ham Detection 📧🛡️
 
-## 📌 Project Overview
-
-This project is an end-to-end NLP (Natural Language Processing) application that classifies SMS messages as Spam or Normal (Ham) using Machine Learning techniques.
-
-The project focuses on understanding how text data can be cleaned, processed, converted into numerical features, and used to train an AI model for prediction.
+## 📖 Overview
+This project focuses on detecting Spam and Ham (Legitimate) messages using Machine Learning and Natural Language Processing (NLP) techniques. The model analyzes text data, processes message content, and classifies messages as spam or non-spam to improve automated filtering systems and text classification accuracy.
 
 ---
 
-# 🎯 Objective
-
-The main aim of this project is to build a smart SMS filtering system that can automatically detect spam messages and improve digital communication security.
-
----
-
-# 🚀 Features
-
-* SMS Spam Classification
-* NLP Text Preprocessing
-* Stopword Removal
-* Stemming
-* TF-IDF Vectorization
-* Naive Bayes Machine Learning Model
-* Interactive Streamlit Web App
+## 🎯 Project Objective
+- Detect spam messages using Machine Learning algorithms
+- Apply NLP techniques for text preprocessing
+- Perform message classification using predictive models
+- Improve understanding of text analytics and NLP workflows
+- Build practical AI/ML and text classification skills
 
 ---
 
-# 🛠 Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* NLTK
-* Scikit-learn
-* Streamlit
-
----
-
-# 📂 Dataset
-
-Dataset Used:
-SMS Spam Collection Dataset
-
-Dataset Link:
-https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+## 📌 Features
+- Text Cleaning & Preprocessing
+- Spam vs Ham Message Classification
+- NLP-based Feature Extraction
+- Machine Learning Model Training
+- Prediction & Accuracy Evaluation
+- Data Visualization & Insights
 
 ---
 
-# 📊 Workflow
-
-1. Load Dataset
-2. Data Cleaning
-3. Text Preprocessing
-4. Stopword Removal
-5. Stemming
-6. TF-IDF Feature Extraction
-7. Train-Test Split
-8. Model Training
-9. Prediction
-10. Streamlit Deployment
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ---
 
-# 🤖 Machine Learning Model
-
-* Multinomial Naive Bayes
-
----
-
-# 📈 Project Outcome
-
-The model successfully classifies spam and normal messages with high accuracy and demonstrates the practical implementation of NLP concepts in real-world applications.
-
----
-
-# 🌐 Streamlit App
-
-Run the application using:
-
-streamlit run app.py
+## 📚 Concepts Covered
+- Natural Language Processing (NLP)
+- Text Classification
+- Tokenization
+- Stopword Removal
+- TF-IDF Vectorization
+- Machine Learning Algorithms
+- Model Evaluation Metrics
 
 ---
 
-# 📚 Learning Outcomes
-
-Through this project, I learned:
-
-* NLP preprocessing techniques
-* Text feature extraction using TF-IDF
-* Machine Learning model training
-* Streamlit web app development
-* End-to-end AI project workflow
-* Real-world spam detection systems
+## 📊 Machine Learning Workflow
+1. Data Collection
+2. Text Cleaning & Preprocessing
+3. Feature Extraction using NLP
+4. Model Training
+5. Spam/Ham Prediction
+6. Performance Evaluation
 
 ---
 
-# 🎯 Future Improvements
+## 💡 Key Insights
+- NLP preprocessing significantly improves spam detection accuracy.
+- Spam messages often contain repetitive promotional keywords.
+- TF-IDF converts textual data into meaningful numerical features.
+- Machine Learning models automate spam filtering efficiently.
 
-* Deep Learning Models
-* LSTM/BERT Integration
-* Multi-language Spam Detection
-* Deployment on Cloud Platforms
+---
 
+## 📈 Algorithms Used
+- Naive Bayes Classifier
+- Logistic Regression
+- Support Vector Machine (SVM)
 
+---
 
-Amrutha Reddy
+## 💡 Skills Demonstrated
+- Machine Learning
+- Natural Language Processing (NLP)
+- Text Classification
+- Data Analysis
+- Python Programming
+- Data Visualization
+- Model Evaluation
+- Problem Solving
 
+---
+
+## 📂 Repository Structure
+
+```bash
+Spam_Ham_detection/
+│
+├── dataset/
+├── notebooks/
+├── models/
+├── images/
+├── README.md
+└── spam_ham_detection.ipynb
+```
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/amruthasai0524/Spam_Ham_detection.git
+```
+
+### 2️⃣ Open Project Directory
+
+```bash
+cd Spam_Ham_detection
+```
+
+### 3️⃣ Install Required Libraries
+
+```bash
+pip install pandas numpy scikit-learn nltk matplotlib seaborn
+```
+
+### 4️⃣ Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+OR run Python script:
+
+```bash
+python app.py
+```
+
+---
+
+## 📊 Project Outcomes
+- Built a Machine Learning model for spam message classification.
+- Improved understanding of NLP and text analytics techniques.
+- Developed practical experience in text preprocessing and prediction.
+- Enhanced analytical thinking and model-building skills.
+
+---
+
+## 🔗 GitHub Repository
+https://github.com/amruthasai0524/Spam_Ham_detection.git
+
+---
+
+## ⭐ Future Enhancements
+- Deploy as a web application using Flask or Streamlit
+- Add Deep Learning-based NLP models
+- Improve prediction accuracy using advanced preprocessing
+- Integrate real-time spam detection system
+- Add multilingual message classification support
+
+---
+
+## 📬 Contact
+Open for collaboration, internships, and opportunities in Data Science, Machine Learning, AI/ML, and NLP.
+
+---
